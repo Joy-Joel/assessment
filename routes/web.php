@@ -16,4 +16,5 @@ Route::get('/', 'HomeController@index')->middleware('auth');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/rss', [App\Http\Controllers\RssFeedController::class, 'ouputRssFeed']);
+
+Route::get('/rss', [App\Http\Controllers\RssFeedController::class, 'ouputRssFeed'])->name('rss');

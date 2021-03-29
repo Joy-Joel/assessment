@@ -27,7 +27,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $feed = Feed::loadRSS("http://feeds.bbci.co.uk/news/rss.xml");
      // Load index view
      return view('home');
     }
