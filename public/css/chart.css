@@ -1,0 +1,91 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.blue-square-container {
+    text-align: center;
+}
+
+.blue-square {
+    display: inline-block;
+}
+
+.rcorners2 {
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    text-align: center;
+    width: 80%;
+    height: 60px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+td,
+th {
+    border: none;
+    padding: 5px;
+    text-align: center1;
+    margin: 0 auto;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+#container {
+    position: relative;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    background: #000
+}
+
+.circlered {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    background: red
+}
+
+.circleyellow {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: black;
+    line-height: 80px;
+    text-align: center;
+    background: yellow
+}
+
+.circleblue {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    background: #0000FF
+}
